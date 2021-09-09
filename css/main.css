@@ -186,7 +186,7 @@ p{
 
 }
 .hero-arrow{
-    margin: 5em auto;
+    margin: 7em auto 0 auto;
     animation: arrow-bounce;
     animation-duration: 3s;
     animation-iteration-count: infinite;
