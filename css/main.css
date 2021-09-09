@@ -135,6 +135,10 @@ p{
     padding-bottom: 1em;
     margin: 0;
 }
+.nav-item:focus,
+.nav-item:hover{
+    border-bottom:1px solid rgba(255, 255, 255, 0.5);
+}
 .nav-link{
     color: hsl(210, 4%, 67%);
     font-size: 1rem;
@@ -152,6 +156,11 @@ p{
     border: none;
     border-radius: 40px;
     outline: none;
+}
+.btn-primary:hover, 
+.btn-primary:focus{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 /* --------------------
     Hero Section
@@ -332,6 +341,12 @@ p{
     flex-direction: row;
     justify-content: space-evenly;
 }
+.footer-link{
+    font-size: 1rem;
+}
+.soical-link{
+    font-size: 1.2rem;
+}
 .footer-link, 
 .soical-link{
     text-decoration: none;
@@ -339,6 +354,12 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     cursor: pointer;
+ }
+.footer-link:hover,
+.footer-link:focus, 
+.soical-link:hover,
+.soical-link:focus{
+    color: #fff;
 }
 .footer-list{
     padding: 1em 0.5em;
@@ -352,10 +373,6 @@ p{
 }
 .soical-items{
     transition: transform 250ms;
-}
-.footer-link:hover, 
-.footer-link:focus{
-    color: #25564b;
 }
 .soical-items:hover, 
 .soical-items:focus{
@@ -409,6 +426,7 @@ p{
         display: block;
         background-color: #fff;
     }
+    
     /* -------------------
         Hero section
     --------------------- */
@@ -565,8 +583,8 @@ p{
     }
     .footer-logo{
         margin: 1em 0;
-        min-width: 10%;
-        max-width: 30%;
+        min-width: 15%;
+        max-width: 20%;
     }
     .footer-list,
     .soical-list{
